@@ -1,2 +1,36 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+html{
+  font-size: 18px;
+}
+body{
+font-style: italic;
+color: #990000;
+background-color: #f0f0f0;
+}
+h1 h2{
+font-family: cursive;
+}
+header{
+border-bottom: 8px solid black;
+}
+.class-list{
+list-style-type: square;
+border: 5px solid blue;
+}
+ul .item.even{
+background-color: grey;
+}
+ul .item.odd{
+background-color: black;
+color: white;
+}#item2{
+text-align: right;
+}
+#item1{
+font-size: 30px;
+}
+#advanced-selectors{
+  padding: 10px;
+  background-color: grey;
+}
